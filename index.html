@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Solution Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary-green: #6EC207;
+            --primary-yellow: #FFEB00;
+            --primary-blue: #4379F2;
+            --primary-pink: #EF5A6F;
+            --white: #ffffff;
+            --black: #000000;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-black font-sans">
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-[var(--primary-green)] to-[var(--primary-blue)] text-white py-20">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-5 md:px-20">
+            <!-- Left Content -->
+            <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/coca-cola-logo-svg-vector.svg"
+                    alt="WebGemRuby Logo" class="mx-auto md:mx-0 mb-6 w-32">
+                <h1 class="text-5xl font-bold leading-tight">We Build Innovative Web Solutions</h1>
+                <p class="mt-4 text-lg text-gray-200 leading-relaxed max-w-md mx-auto md:mx-0">
+                    Empowering your business with cutting-edge technology for unparalleled growth and success.
+                </p>
+                <div class="mt-8 space-x-4">
+                    <a href="#services"
+                        class="bg-[var(--primary-yellow)] text-black py-3 px-8 rounded-full text-lg shadow-lg transition-transform hover:scale-105">Explore
+                        Services</a>
+                    <a href="#portfolio"
+                        class="border-2 border-white text-white py-3 px-8 rounded-full text-lg shadow-lg transition-transform hover:scale-105">View
+                        Portfolio</a>
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://bluespaceit.agency/wp-content/uploads/2021/12/siberia_agency_banner-2.jpg"
+                    alt="Web Solutions"
+                    class="w-10/12 md:w-full rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section id="services" class="py-20 bg-[var(--white)]">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-10">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- E-commerce Website -->
+                <div
+                    class="p-6 border border-gray-300 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <i class="fas fa-shopping-cart text-4xl text-[var(--primary-green)] mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">E-commerce Website</h3>
+                    <p>We develop fully customizable and responsive online stores tailored to your business needs,
+                        ensuring a seamless shopping experience for your customers.</p>
+                </div>
+                <!-- Landing Page -->
+                <div
+                    class="p-6 border border-gray-300 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <i class="fas fa-bullhorn text-4xl text-[var(--primary-yellow)] mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Landing Page</h3>
+                    <p>Create high-converting, visually stunning landing pages that captivate your audience and drive
+                        leads to your business.</p>
+                </div>
+                <!-- Portfolio Website -->
+                <div
+                    class="p-6 border border-gray-300 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <i class="fas fa-briefcase text-4xl text-[var(--primary-blue)] mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+                    <p>Showcase your work and skills with a modern, sleek portfolio website designed to impress
+                        potential clients and employers.</p>
+                </div>
+                <!-- Custom Website -->
+                <div
+                    class="p-6 border border-gray-300 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <i class="fas fa-cogs text-4xl text-[var(--primary-pink)] mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Custom Website</h3>
+                    <p>Get a fully bespoke website built to your exact specifications with personalized features and
+                        functionality to meet your unique requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-[var(--primary-blue)] text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-10">Our Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <img src="https://cdn.prod.website-files.com/64da807a9aa000087e97b92d/64edd5e0d583a6a81084d007_5e593fb060cf872c3375efac_square-template-thumbnail.jpeg"
+                        alt="Project 1" class="rounded-md">
+                    <h3 class="text-xl font-semibold mt-4 text-black">E-commerce Website</h3>
+                    <p class="text-gray-600"> Web Development</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <img src="https://i.pinimg.com/736x/90/9e/49/909e49cde79f71c59ccc4af9b7deb502.jpg" alt="Project 2"
+                        class="rounded-md">
+                    <h3 class="text-xl font-semibold mt-4 text-black">Portfolio Website</h3>
+                    <p class="text-gray-600"> Web Development</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <img src="https://res.cloudinary.com/deirqouhr/image/upload/f_auto,w_3840,x_0,y_0,c_crop,h_3500,w_2880/heros/n4ex9sscfsij3orwazae.png"
+                        alt="Project 3" class="rounded-md">
+                    <h3 class="text-xl font-semibold mt-4 text-black">Landing Page</h3>
+                    <p class="text-gray-600"> Marketing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto text-center">
+            <p class="text-sm mb-4">We provide web solutions that make your business better.</p>
+            <h2 class="text-3xl font-bold mb-6">contact@webigtech.com</h2>
+            <div class="mb-8">
+                <a href="#" class="text-[var(--primary-yellow)] mr-4"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-[var(--primary-blue)] mr-4"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-[var(--primary-pink)] mr-4"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-sm">© 2024 – All rights reserved – Webigtech – Developed by Webigtech team.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
